@@ -40,3 +40,6 @@ $docker logs -f <id_container>
 2.1 - Colocar o caminho do java Home na instalação do JDK /usr/lib/jvm/java-8-openjdk-amd64
 
 2.2 - Configurar a Opção Maven	/opt/apache-maven-3.3.9
+
+# Observação: Há problemas em mapear um diretório local quando se usa o Docker do Windows pelo Toolbox,
+portanto se utilizar o windows para testar comentar a linha do Docker Compose correspondente ao volume

@@ -3,6 +3,9 @@ services:
   jenkins:
     image: jenkins:latest
     container_name: jenkins
+    restart: always
+    volumes:
+      - <substituir pelo caminho da maquina local>:/var/jenkins_home
     ports:
       - "8080:8080"
       - "50000:50000"
