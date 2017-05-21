@@ -36,7 +36,8 @@ $docker logs -f <id_container>
 1 - Clicar em Criar um Job, escolher a opção Construir um projeto de Software free style
 
 2- Clicar em Global Tools Configuration
+
 2.1 - Colocar o caminho do java Home na instalação do JDK
 		/usr/lib/jvm/java-8-openjdk-amd64
-	2.2 - Configurar a Opção Maven
+2.2 - Configurar a Opção Maven
 		/opt/apache-maven-3.3.9
